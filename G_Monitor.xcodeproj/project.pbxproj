@@ -9,12 +9,16 @@
 /* Begin PBXBuildFile section */
 		FA1ED4DC2BD57FD00023438F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1ED4DB2BD57FD00023438F /* AppDelegate.swift */; };
 		FA1ED4DE2BD57FD00023438F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1ED4DD2BD57FD00023438F /* SceneDelegate.swift */; };
-		FA1ED4E02BD57FD00023438F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1ED4DF2BD57FD00023438F /* ViewController.swift */; };
-		FA1ED4E32BD57FD00023438F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA1ED4E12BD57FD00023438F /* Main.storyboard */; };
 		FA1ED4E52BD57FD10023438F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA1ED4E42BD57FD10023438F /* Assets.xcassets */; };
 		FA1ED4E82BD57FD10023438F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA1ED4E62BD57FD10023438F /* LaunchScreen.storyboard */; };
 		FA1ED4F32BD57FD10023438F /* G_MonitorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1ED4F22BD57FD10023438F /* G_MonitorTests.swift */; };
 		FA1ED4FE2BD57FD10023438F /* G_MonitorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1ED4FD2BD57FD10023438F /* G_MonitorUITests.swift */; };
+		FA1ED50F2BD5800E0023438F /* Redroundbutton.png in Resources */ = {isa = PBXBuildFile; fileRef = FA1ED50B2BD5800E0023438F /* Redroundbutton.png */; };
+		FA1ED5102BD5800E0023438F /* honk.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FA1ED50C2BD5800E0023438F /* honk.mp3 */; };
+		FA1ED5112BD5800E0023438F /* Greenroundbutton.png in Resources */ = {isa = PBXBuildFile; fileRef = FA1ED50D2BD5800E0023438F /* Greenroundbutton.png */; };
+		FA1ED5122BD5800E0023438F /* elk.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA1ED50E2BD5800E0023438F /* elk.jpg */; };
+		FA1ED5142BD5809A0023438F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA1ED5132BD5809A0023438F /* Main.storyboard */; };
+		FA1ED5162BD580BF0023438F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1ED5152BD580BE0023438F /* ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,8 +42,6 @@
 		FA1ED4D82BD57FD00023438F /* G_Monitor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = G_Monitor.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA1ED4DB2BD57FD00023438F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FA1ED4DD2BD57FD00023438F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		FA1ED4DF2BD57FD00023438F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		FA1ED4E22BD57FD00023438F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FA1ED4E42BD57FD10023438F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FA1ED4E72BD57FD10023438F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FA1ED4E92BD57FD10023438F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +51,12 @@
 		FA1ED4F92BD57FD10023438F /* G_MonitorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = G_MonitorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA1ED4FD2BD57FD10023438F /* G_MonitorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = G_MonitorUITests.swift; sourceTree = "<group>"; };
 		FA1ED4FF2BD57FD10023438F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA1ED50B2BD5800E0023438F /* Redroundbutton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Redroundbutton.png; path = "../../../Xcode Projects/button designs/Redroundbutton.png"; sourceTree = "<group>"; };
+		FA1ED50C2BD5800E0023438F /* honk.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = honk.mp3; path = ../../../honk.mp3; sourceTree = "<group>"; };
+		FA1ED50D2BD5800E0023438F /* Greenroundbutton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Greenroundbutton.png; path = "../../../Xcode Projects/button designs/Greenroundbutton.png"; sourceTree = "<group>"; };
+		FA1ED50E2BD5800E0023438F /* elk.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = elk.jpg; path = ../../../../Downloads/elk.jpg; sourceTree = "<group>"; };
+		FA1ED5132BD5809A0023438F /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		FA1ED5152BD580BE0023438F /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = ../../GMonitor/GMonitor/ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,9 +109,13 @@
 			children = (
 				FA1ED4DB2BD57FD00023438F /* AppDelegate.swift */,
 				FA1ED4DD2BD57FD00023438F /* SceneDelegate.swift */,
-				FA1ED4DF2BD57FD00023438F /* ViewController.swift */,
-				FA1ED4E12BD57FD00023438F /* Main.storyboard */,
+				FA1ED5152BD580BE0023438F /* ViewController.swift */,
+				FA1ED5132BD5809A0023438F /* Main.storyboard */,
 				FA1ED4E42BD57FD10023438F /* Assets.xcassets */,
+				FA1ED50E2BD5800E0023438F /* elk.jpg */,
+				FA1ED50D2BD5800E0023438F /* Greenroundbutton.png */,
+				FA1ED50C2BD5800E0023438F /* honk.mp3 */,
+				FA1ED50B2BD5800E0023438F /* Redroundbutton.png */,
 				FA1ED4E62BD57FD10023438F /* LaunchScreen.storyboard */,
 				FA1ED4E92BD57FD10023438F /* Info.plist */,
 			);
@@ -232,9 +244,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA1ED5122BD5800E0023438F /* elk.jpg in Resources */,
+				FA1ED50F2BD5800E0023438F /* Redroundbutton.png in Resources */,
+				FA1ED5102BD5800E0023438F /* honk.mp3 in Resources */,
+				FA1ED5142BD5809A0023438F /* Main.storyboard in Resources */,
+				FA1ED5112BD5800E0023438F /* Greenroundbutton.png in Resources */,
 				FA1ED4E82BD57FD10023438F /* LaunchScreen.storyboard in Resources */,
 				FA1ED4E52BD57FD10023438F /* Assets.xcassets in Resources */,
-				FA1ED4E32BD57FD00023438F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,8 +275,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FA1ED4E02BD57FD00023438F /* ViewController.swift in Sources */,
 				FA1ED4DC2BD57FD00023438F /* AppDelegate.swift in Sources */,
+				FA1ED5162BD580BF0023438F /* ViewController.swift in Sources */,
 				FA1ED4DE2BD57FD00023438F /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -297,14 +313,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		FA1ED4E12BD57FD00023438F /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				FA1ED4E22BD57FD00023438F /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		FA1ED4E62BD57FD10023438F /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -433,7 +441,7 @@
 		FA1ED5032BD57FD10023438F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-2";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = N5PKC7Z52V;
 				INFOPLIST_FILE = G_Monitor/Info.plist;
@@ -451,7 +459,7 @@
 		FA1ED5042BD57FD10023438F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-2";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = N5PKC7Z52V;
 				INFOPLIST_FILE = G_Monitor/Info.plist;
